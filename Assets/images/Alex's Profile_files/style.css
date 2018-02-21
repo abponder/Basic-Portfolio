@@ -78,44 +78,11 @@ p {
 }
 
 .sidebar {
-    position: relative;
-    left: 751px;
-    right: 0;
-    top: -651px;
-    bottom: 0;
-    width: 270px;
-    height: 150px;
-    background-color: #ffffff;
-    border-top-color: #dddddd;
-    border-top-width: 2px;
-    border-top-style: solid;
-    text-align: left;
-    font-weight: normal;
-    padding: 27px 27px 27px 0px;
-    color:  #4aaaa5;
-    font-size: 25px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 25px;
-}
 
-
-.connectwithme {
-  margin  : 0px 15px 0px 20px;
-
-}
-
-
-.line3 {
-  
-  background-color: #cccccc;
-  height:5px;
-  width: 95%;
-  margin  : 43px 15px 1px 20px;
-  
-}
 
 
 
+}
 
 .body {
     background-image: url("dust_scratches.png");
@@ -174,7 +141,7 @@ p {
   .spacebox1 {
     background-color: aquamarine;
     float: right;
-    margin-right: 200px;
+    margin-right: 700px;
 
 
   }
