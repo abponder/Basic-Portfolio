@@ -18,10 +18,10 @@
     <Div class="menucontainer">
         <div class="name"><strong>Alex Ponder</strong></div>
         
-            <div class="spacebox1">se mee</div>
-            <button class="button" style="vertical-align:middle"><span>Contact</span></button>
-            <button class="button" style="vertical-align:middle"><span>Portfolio</span></button>
-            <button class="button" style="vertical-align:middle"><span>About</span></button>
+            <div class="spacebox1"></div>
+            <button onclick="OpenContact()" class="button" style="vertical-align:middle"><span>Contact</span></button>
+            <button onclick="OpenPortfolio()" class="button" style="vertical-align:middle"><span>Portfolio</span></button>
+            <button onclick="OpenAbout()" class="button" style="vertical-align:middle"><span>About</span></button>
             
         
     </Div>
@@ -54,21 +54,57 @@
 
      </div>         
 
-     <div class="sidebar">
-            <div class="connectwithme">Connect with Me</div>
-            <div class="line3"></div>
-                    <a href="https://github.com/abponder" target="_blank">
-                            <img src="Assets\images\img_github.png" alt="Github" style="width:75px;height:75px;border:0px;margin-left:25px;">
+     <div class="sidebar">Connect with Me
+            <div class="connectwithme">
+                <div class="line3">
+                    <a href="https://github.com/abponder" target="_blank" class="test">
+                            <img src="Assets\images\img_github.png" alt="Github" >
                     </a>
-                    <a href="https://www.linkedin.com/in/abp-a1-tops/" target="_blank">
-                            <img src="Assets\images\img_linkedin.png" alt="LinkedIn" style="width:75px;height:75px;border:0px;">
+                    <a href="https://www.linkedin.com/in/abp-a1-tops/" target="_blank" class="test">
+                            <img src="Assets\images\img_linkedin.png" alt="LinkedIn" >
                     </a>
-                    <a href="https://stackexchange.com/users/12547052/aponder" target="_blank">
-                            <img src="Assets\images\img_stackoverflow.png" alt="StackOverflow" style="width:75px;height:75px;border:0px;">
+                    <a href="https://stackexchange.com/users/12547052/aponder" target="_blank" class="test">
+                            <img src="Assets\images\img_stackoverflow.png" alt="StackOverflow">
                     </a>
+                </div>
+            </div>
+     
 
+     <td colspan="1">
+            <div id="clock">    
+                <script type="text/javascript">     
+                               // Array of month Names   
+                    var monthArray = new Array("January", "February", "March", "April", "May",
+                               "June", "July", "August", "September",
+                               "October", "November", "December");
+                    var today = new Date();
+                    var todayMonth = today.getMonth();
+                    var todayDate = today.getDate();
+                    var todayYear = today.getFullYear();
+                    document.write(monthArray[todayMonth] + " " + todayDate + ", " + todayYear);
+    
+                    var currentTime = new Date()
+                    var hours = currentTime.getHours()
+                    var minutes = currentTime.getMinutes()
+                    if (minutes < 10) {
+                        minutes = "0" + minutes
+                    }
+                    document.write(" " + hours + ":" + minutes + " ")
+                    if (hours > 11) {
+                        document.write("PM")
+                    } else {
+                        document.write("AM")
+                    }
+                // -->
+                </script>
 
-     </div>
+    </div>
+    
+            <!-- &nbsp; this is a non-breaking space -->
+    
+             </div>
+    
+    </td>
 
 
                 <!-- &nbsp; this is a non-breaking space -->

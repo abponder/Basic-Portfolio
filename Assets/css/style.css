@@ -79,19 +79,18 @@ p {
 
 .sidebar {
     position: relative;
-    left: 751px;
-    right: 0;
-    top: -651px;
-    bottom: 0;
-    width: 270px;
-    height: 150px;
+    right: -740px;
+    bottom: 650px;
+    
+    width: 345px;
+    height: 220px;
     background-color: #ffffff;
     border-top-color: #dddddd;
     border-top-width: 2px;
     border-top-style: solid;
     text-align: left;
     font-weight: normal;
-    padding: 27px 27px 27px 0px;
+    padding: 27px 27px 45px 27px;
     color:  #4aaaa5;
     font-size: 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -100,17 +99,22 @@ p {
 
 
 .connectwithme {
-  margin  : 0px 15px 0px 20px;
-
+  /* margin  : 0px 15px 0px 20px; */
+  width: 300px;
+  
+  /* margin: 0 auto; */
+  margin-top: 43px;
+  border-top: #cccccc 5px solid;
 }
 
 
 .line3 {
   
-  background-color: #cccccc;
+  
   height:5px;
   width: 95%;
-  margin  : 43px 15px 1px 20px;
+  margin:0 auto;
+  padding-top: 20px;
   
 }
 
@@ -130,7 +134,8 @@ p {
     display: inline-block;
     /* border-radius: 4px; */
     background-color: #ffffff;
-    border: 1px solid green; /* or none*/
+    /* border: 1px solid green; */
+    border: none;
     color: rgb(131, 128, 128);
     text-align: left;
     font-size: 14px;
@@ -207,6 +212,25 @@ p {
 
 
 }
+
+.test {
+    text-decoration: none;
+    border:0px;
+}
+
+.test > img {
+  width:75px;
+  height:75px;
+}
+
+#clock { 
+  color:darkred;
+    text-align:left; 
+     
+    margin-top: 75px; 
+    padding: 0px;
+    font-size: 14px;
+  }
 
 
 

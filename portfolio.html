@@ -10,45 +10,144 @@
       <title>Alex's Portfolio</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="01_shell_Desc.css">
-      <link rel="icon" type="image/gif" href="favicon.png" />
-
+      <link rel="stylesheet" href="Assets\css\style.css">
+      <!--<link rel="stylesheet" href="Assets\css\form.css">-->
+      <link rel="stylesheet" href="Assets\css\image.css">
+      
+      <link rel="icon" type="image/gif" href="Assets\images\favicon.png" />
 
 </head>
 
- 
+    <Div class="menucontainer">
+        <div class="name"><strong>Alex Ponder</strong></div>
+        
+            <div class="spacebox1"></div>
+            <button onclick="OpenContact()" class="button" style="vertical-align:middle"><span>Contact</span></button>
+            <button onclick="OpenPortfolio()" class="button" style="vertical-align:middle"><span>Portfolio</span></button>
+            <button onclick="OpenAbout()" class="button" style="vertical-align:middle"><span>About</span></button>
+            
+        
+    </Div>
 
  
 
-<body>
-              <!-- blank means new sheet, self means this sheet -->
-              <!-- jk                                           -->
-              <a href="https://www.w3schools.com/html/" title="this is a link" target="_blank">Visit our HTML Tutorial</a>
+<body class="body">
 
-                <p id="p01">this p is set in style id attribute</p>
+  <div class="MainSection">
+    <div class = "aboutme">Portfolio</div>
+    <div class="line1"></div>
 
-                <span><p>Block here</p>
+            <div class="gallery">
+                <a target="_blank" href="Assets\images\img_port1.jpg">
+                    <img src="Assets\images\img_port1.jpg" alt="port1">
+                </a>
+                <div class="desc">Hangman</div>
+            </div>
+        
+            <div class="gallery">
+                <a target="_blank" href="Assets\images\img_port2.jpg">
+                    <img src="Assets\images\img_port2.jpg" alt="port2">
+                </a>
+                <div class="desc">RPG Game</div>
+            </div>
+        
+            <div class="gallery">
+                <a target="_blank" href="Assets\images\img_port3.jpg">
+                    <img src="Assets\images\img_port3.jpg" alt="port3">
+                </a>
+                <div class="desc">Trivia Game</div>
+            </div>
 
-                <img src="img_paris.jpg" alt="img_paris.jpg" style="width:250px;height:300px;">
+            <div class="gallery">
+                    <a target="_blank" href="Assets\images\img_port4.jpg">
+                        <img src="Assets\images\img_port4.jpg" alt="port4">
+                    </a>
+                    <div class="desc">Rutgers Info Widget</div>
+            </div>
+    
+            <div class="gallery">
+                    <a target="_blank" href="Assets\images\img_port5.jpg">
+                        <img src="Assets\images\img_port5.jpg" alt="port5">
+                    </a>
+                    <div class="desc">Rock Paper Scissors</div>
+            </div>
 
-                </span>
 
-                <h2 class="city main">Paris</h2>
 
-                <p class="city">Paris is the capital of France.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. B
-                  landitiis, quas possimus. Vitae magni, ut, ducimus qui li
-                  bero laborum eius aspernatur delectus enim asperiores iusto
-                  , nam voluptas dignissimos rem earum illum.</p>
+    </div>
 
-               
+
+    
+   <!--
+    <p style = "clear: left;">
+    -->
+
+ </div>           
+
+     <div class="sidebar">Connect with Me
+            <div class="connectwithme">
+                <div class="line3">
+                    <a href="https://github.com/abponder" target="_blank" class="test">
+                            <img src="Assets\images\img_github.png" alt="Github" >
+                    </a>
+                    <a href="https://www.linkedin.com/in/abp-a1-tops/" target="_blank" class="test">
+                            <img src="Assets\images\img_linkedin.png" alt="LinkedIn" >
+                    </a>
+                    <a href="https://stackexchange.com/users/12547052/aponder" target="_blank" class="test">
+                            <img src="Assets\images\img_stackoverflow.png" alt="StackOverflow">
+                    </a>
+                </div>
+            </div>
+     
+
+     <td colspan="1">
+            <div id="clock">    
+                <script type="text/javascript">     
+                               // Array of month Names   
+                    var monthArray = new Array("January", "February", "March", "April", "May",
+                               "June", "July", "August", "September",
+                               "October", "November", "December");
+                    var today = new Date();
+                    var todayMonth = today.getMonth();
+                    var todayDate = today.getDate();
+                    var todayYear = today.getFullYear();
+                    document.write(monthArray[todayMonth] + " " + todayDate + ", " + todayYear);
+    
+                    var currentTime = new Date()
+                    var hours = currentTime.getHours()
+                    var minutes = currentTime.getMinutes()
+                    if (minutes < 10) {
+                        minutes = "0" + minutes
+                    }
+                    document.write(" " + hours + ":" + minutes + " ")
+                    if (hours > 11) {
+                        document.write("PM")
+                    } else {
+                        document.write("AM")
+                    }
+                // -->
+                </script>
+
+    </div>
+    
+            <!-- &nbsp; this is a non-breaking space -->
+    
+             </div>
+    
+    </td>
+
 
                 <!-- &nbsp; this is a non-breaking space -->
 
- 
+<script src="Assets\js\Script.js"></script>
 
 </body>
 
+<footer class="footer">
+    <p>&#169 copyright 2018 Alex B.Ponder</p>
+    
+    
+</footer>
  
 
  
