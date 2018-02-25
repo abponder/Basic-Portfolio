@@ -72,6 +72,12 @@ p {
 
 }
 
+.image > img {
+  width:150px;
+  height:150px;
+}
+
+
 #para1 {
   
   margin:0 auto;
