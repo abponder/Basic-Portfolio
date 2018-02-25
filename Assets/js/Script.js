@@ -3,19 +3,19 @@
 
 function OpenPortfolio() {
 
-    urlval = "Portfolio.html"
+    urlval = "portfolio.html"
     newWin = window.open(urlval, 'newHWin');
     newWin.focus();
     }
     function OpenContact() {
 
-        urlval = "Contact.html"
+        urlval = "contact.html"
         newWin = window.open(urlval, 'newHWin');
         newWin.focus();
         }
     function OpenAbout() {
 
-        urlval = "Index.html"
+        urlval = "index.html"
         newWin = window.open(urlval, 'newHWin');
         newWin.focus();
         }
